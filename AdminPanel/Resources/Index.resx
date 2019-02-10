@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUss" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="AddGallery" xml:space="preserve">
+    <value>Yeni Galeri Ekle</value>
+  </data>
+  <data name="AddGalleryCategory" xml:space="preserve">
+    <value>Galeri Kategorisi Ekle</value>
+  </data>
+  <data name="AddGalleryPhoto" xml:space="preserve">
+    <value>Galeri Fotoğrafı ekle</value>
+  </data>
+  <data name="AddNewCategory" xml:space="preserve">
+    <value>Yeni Kategori Ekle</value>
+  </data>
+  <data name="AddNewGallery" xml:space="preserve">
+    <value>Yeni Galeri Ekle</value>
+  </data>
+  <data name="AddNewGalleryCategory" xml:space="preserve">
+    <value>Yeni Galeri Kategorisi Ekle</value>
+  </data>
+  <data name="AddNewNews" xml:space="preserve">
+    <value>Yeni Haber Ekle</value>
+  </data>
+  <data name="AddNewPage" xml:space="preserve">
+    <value>Yeni Sayfa Ekle</value>
+  </data>
+  <data name="AddNewPartner" xml:space="preserve">
+    <value>Yeni Partner Ekle</value>
+  </data>
+  <data name="AddNewProduct" xml:space="preserve">
+    <value>Yeni Ürün Ekle</value>
+  </data>
+  <data name="AddNewReference" xml:space="preserve">
+    <value>Yeni Referans Ekle</value>
+  </data>
+  <data name="AddNewReferenceCategory" xml:space="preserve">
+    <value>Yeni Referans Kategorisi Ekle</value>
+  </data>
+  <data name="AddNews" xml:space="preserve">
+    <value>Haber Ekle</value>
+  </data>
+  <data name="AddNewService" xml:space="preserve">
+    <value>Yeni Hizmet Ekle</value>
+  </data>
+  <data name="AddNewSlider" xml:space="preserve">
+    <value>Yeni Slider Ekle</value>
+  </data>
+  <data name="AddNewSliderCategory" xml:space="preserve">
+    <value>Yeni Slider Kategorisi Ekle</value>
+  </data>
+  <data name="AddNewStaff" xml:space="preserve">
+    <value>Yeni Personel Ekle</value>
+  </data>
+  <data name="AddNewStaffPosition" xml:space="preserve">
+    <value>Yeni Personel Görevi Ekle</value>
+  </data>
+  <data name="AddPage" xml:space="preserve">
+    <value>Sayfa Ekle</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Ürün Ekle</value>
+  </data>
+  <data name="AddReference" xml:space="preserve">
+    <value>Referans Ekle</value>
+  </data>
+  <data name="AddReferenceCategory" xml:space="preserve">
+    <value>Referans Kategorisi Ekle</value>
+  </data>
+  <data name="AddServices" xml:space="preserve">
+    <value>Yeni Hizmet Ekle</value>
+  </data>
+  <data name="AddServicesPhotos" xml:space="preserve">
+    <value>Hizmet Resimleri Yükle</value>
+  </data>
+  <data name="AddSlider" xml:space="preserve">
+    <value>Slider Ekle</value>
+  </data>
+  <data name="AddSliderCategory" xml:space="preserve">
+    <value>Slider Kateogiri Ekle</value>
+  </data>
+  <data name="AddStaff" xml:space="preserve">
+    <value>Personel Ekle</value>
+  </data>
+  <data name="AddStaffPosition" xml:space="preserve">
+    <value>Personel Grrevi Ekle</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Kategori Adı</value>
+  </data>
+  <data name="CategoryNameEN" xml:space="preserve">
+    <value>İngilizce Kategori Adı</value>
+  </data>
+  <data name="CategoryNameTR" xml:space="preserve">
+    <value>Türkçe Kategori Adı</value>
+  </data>
+  <data name="ChoseCategory" xml:space="preserve">
+    <value>Kategori Seç</value>
+  </data>
+  <data name="ChoseStaffPosition" xml:space="preserve">
+    <value>Personel Görevi Seç</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="CompanyAddress" xml:space="preserve">
+    <value>Firma Adresi</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>Firma Email</value>
+  </data>
+  <data name="CompanyFacebook" xml:space="preserve">
+    <value>Firma Facebook Adresi</value>
+  </data>
+  <data name="CompanyLinkedin" xml:space="preserve">
+    <value>Firma Linkedin</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="CompanyPhone" xml:space="preserve">
+    <value>Firma Telefon</value>
+  </data>
+  <data name="CompanySkype" xml:space="preserve">
+    <value>Firma Skype</value>
+  </data>
+  <data name="CompanyTwitter" xml:space="preserve">
+    <value>Firma Twitter Adresi</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Parolayı Onayla</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="ContactMessage" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="ContactMessages" xml:space="preserve">
+    <value>İletişim Mesajları</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>Data Bulunamadı</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>Kategori Sil</value>
+  </data>
+  <data name="DeleteGallery" xml:space="preserve">
+    <value>Galeri Sil</value>
+  </data>
+  <data name="DeleteGalleryCategory" xml:space="preserve">
+    <value>Galeri Kategorisi Sil</value>
+  </data>
+  <data name="DeleteNews" xml:space="preserve">
+    <value>Haber Sil</value>
+  </data>
+  <data name="DeletePage" xml:space="preserve">
+    <value>Sayfa Sil</value>
+  </data>
+  <data name="DeletePartner" xml:space="preserve">
+    <value>Partner Sil</value>
+  </data>
+  <data name="DeleteProduct" xml:space="preserve">
+    <value>Ürün Sil</value>
+  </data>
+  <data name="DeleteReference" xml:space="preserve">
+    <value>Delete Reference</value>
+  </data>
+  <data name="DeleteReferenceCategory" xml:space="preserve">
+    <value>Referans Kategorisi Sil</value>
+  </data>
+  <data name="DeleteServices" xml:space="preserve">
+    <value>Hizmet Sil</value>
+  </data>
+  <data name="DeleteSlider" xml:space="preserve">
+    <value>Slider Sil</value>
+  </data>
+  <data name="DeleteSliderCategory" xml:space="preserve">
+    <value>Slider Kategori Sil</value>
+  </data>
+  <data name="DeleteStaff" xml:space="preserve">
+    <value>Personel Sil</value>
+  </data>
+  <data name="DeleteStaffPosition" xml:space="preserve">
+    <value>Personel Görevi Sil</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="EditCategory" xml:space="preserve">
+    <value>Kategori Düzenle</value>
+  </data>
+  <data name="EditGallery" xml:space="preserve">
+    <value>Galeri Düzenle</value>
+  </data>
+  <data name="EditGalleryCategory" xml:space="preserve">
+    <value>Galeri Kategorisi Düzenle</value>
+  </data>
+  <data name="EditNews" xml:space="preserve">
+    <value>Haber Düzenle</value>
+  </data>
+  <data name="EditPage" xml:space="preserve">
+    <value>Sayfa Düzenle</value>
+  </data>
+  <data name="EditPartner" xml:space="preserve">
+    <value>Partner Düzenle</value>
+  </data>
+  <data name="EditProduct" xml:space="preserve">
+    <value>Ürün Düzenle</value>
+  </data>
+  <data name="EditReference" xml:space="preserve">
+    <value>Edit Reference</value>
+  </data>
+  <data name="EditReferenceCategory" xml:space="preserve">
+    <value>Referans Kategorisi Düzenle</value>
+  </data>
+  <data name="EditServices" xml:space="preserve">
+    <value>Hizmet Düzenle</value>
+  </data>
+  <data name="EditSlider" xml:space="preserve">
+    <value>Slider Düzenle</value>
+  </data>
+  <data name="EditSliderCategory" xml:space="preserve">
+    <value>Slider Kategori Düzenle</value>
+  </data>
+  <data name="EditStaff" xml:space="preserve">
+    <value>Personel Düzenle</value>
+  </data>
+  <data name="EditStaffPosition" xml:space="preserve">
+    <value>Personel Görevi Düzenle</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="EnglishGalleryName" xml:space="preserve">
+    <value>İngilizce Galeri Adı</value>
+  </data>
+  <data name="EnglishNewsContent" xml:space="preserve">
+    <value>İngilizce Haber Açklaması</value>
+  </data>
+  <data name="EnglishNewsTitle" xml:space="preserve">
+    <value>İngilizce Haber Başlığı</value>
+  </data>
+  <data name="EnglishPageContent" xml:space="preserve">
+    <value>İngilizce Sayfa İçeriği</value>
+  </data>
+  <data name="EnglishPageTitle" xml:space="preserve">
+    <value>İngilizce Sayfa Başluğı</value>
+  </data>
+  <data name="EnglishProductDescription" xml:space="preserve">
+    <value>İngilizce Ürün Açıklaması</value>
+  </data>
+  <data name="EnglishProductName" xml:space="preserve">
+    <value>İngilizce Ürün Adı</value>
+  </data>
+  <data name="EnglishReferenceDescription" xml:space="preserve">
+    <value>İngilizce Referans Açıklaması</value>
+  </data>
+  <data name="EnglishReferenceTitle" xml:space="preserve">
+    <value>İngilizce Referans Başlığı</value>
+  </data>
+  <data name="EnglishServiceDescription" xml:space="preserve">
+    <value>İngilizce Hizmet Acıklaması</value>
+  </data>
+  <data name="EnglishServicesTitle" xml:space="preserve">
+    <value>İngilizce Hizmet Başlığı</value>
+  </data>
+  <data name="EnglishSliderName" xml:space="preserve">
+    <value>İngilizce Slider Başlığı</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galeri</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Galeri Kategorisi</value>
+  </data>
+  <data name="GalleryCategoryList" xml:space="preserve">
+    <value>Galeri Kategori Listesi</value>
+  </data>
+  <data name="GalleryList" xml:space="preserve">
+    <value>Galeri Listesi</value>
+  </data>
+  <data name="GalleryName" xml:space="preserve">
+    <value>Galeri Adı</value>
+  </data>
+  <data name="GallleryPhoto" xml:space="preserve">
+    <value>Galeri Fotoğrafı</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="GeneralSiteSettings" xml:space="preserve">
+    <value>Genel Site Ayarları</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="LoggingoutPleaseWait" xml:space="preserve">
+    <value>Çıkış yapılıyor lütfen bekleyiniz</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="Logintostartyoursession" xml:space="preserve">
+    <value>İşlem yapmak için giriş yapınız</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="NameSurname" xml:space="preserve">
+    <value>Adı Soyad</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Haberler</value>
+  </data>
+  <data name="NewsDate" xml:space="preserve">
+    <value>Haber Tarihi</value>
+  </data>
+  <data name="NewsImage" xml:space="preserve">
+    <value>Haber Görseli</value>
+  </data>
+  <data name="NewsList" xml:space="preserve">
+    <value>Haber Listesi</value>
+  </data>
+  <data name="notifications" xml:space="preserve">
+    <value>bildiriminiz</value>
+  </data>
+  <data name="notificationsyouhave" xml:space="preserve">
+    <value>bildiriminiz var</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="PageContent" xml:space="preserve">
+    <value>Sayfa İçeriği</value>
+  </data>
+  <data name="PageImages" xml:space="preserve">
+    <value>Sayfa Görselleri</value>
+  </data>
+  <data name="PageManagement" xml:space="preserve">
+    <value>Sayfa Yönetimi</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="PagesList" xml:space="preserve">
+    <value>Sayfa Listesi</value>
+  </data>
+  <data name="PagesManagement" xml:space="preserve">
+    <value>Sayfa Yönetimi</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Sayfa Başlığı</value>
+  </data>
+  <data name="PageUrl" xml:space="preserve">
+    <value>Sayfa Url</value>
+  </data>
+  <data name="PartnerLogo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="PartnerName" xml:space="preserve">
+    <value>Çözüm Ortağı Adı</value>
+  </data>
+  <data name="Partners" xml:space="preserve">
+    <value>Çözüm Ortakları</value>
+  </data>
+  <data name="PartnersList" xml:space="preserve">
+    <value>Çözüm Ortakları Listesi</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="Pleasefillallrequiredfields" xml:space="preserve">
+    <value>Lütfen bütün gerekli alanları doldurunuz hatta hepsini</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Lütfen Seçiniz</value>
+  </data>
+  <data name="ProductCategoryPhoto" xml:space="preserve">
+    <value>Ürün Kategori Fotoğrafı</value>
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Ürün Kodu</value>
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
+    <value>Ürün Açıklaması</value>
+  </data>
+  <data name="ProductList" xml:space="preserve">
+    <value>Ürün Listesi</value>
+  </data>
+  <data name="ProductManagement" xml:space="preserve">
+    <value>Ürün Yönetim</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Ürün Adı</value>
+  </data>
+  <data name="ProductPhoto" xml:space="preserve">
+    <value>Ürün Fotoğrafı</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Ürünler</value>
+  </data>
+  <data name="ProductsCategory" xml:space="preserve">
+    <value>Ürün Kategorisi</value>
+  </data>
+  <data name="ProductsCategoryList" xml:space="preserve">
+    <value>Ürün Kategori Listesi</value>
+  </data>
+  <data name="ProductUrl" xml:space="preserve">
+    <value>Ürün Url Adresi</value>
+  </data>
+  <data name="ProfilePhoto" xml:space="preserve">
+    <value>Profil Fotoğrafı</value>
+  </data>
+  <data name="ProfileSettings" xml:space="preserve">
+    <value>Profil Ayarları</value>
+  </data>
+  <data name="ReferenceCategory" xml:space="preserve">
+    <value>Referans Kategorisi</value>
+  </data>
+  <data name="ReferenceCategoryList" xml:space="preserve">
+    <value>Referans Kategori Listesi</value>
+  </data>
+  <data name="ReferenceDescription" xml:space="preserve">
+    <value>Referans Açıklaması</value>
+  </data>
+  <data name="ReferenceLogo" xml:space="preserve">
+    <value>Referans Logosu</value>
+  </data>
+  <data name="ReferenceName" xml:space="preserve">
+    <value>Referans Adı</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Referenslar</value>
+  </data>
+  <data name="ReferencesList" xml:space="preserve">
+    <value>Referans Listesi</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Beni Hatırla</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SeeAllMessages" xml:space="preserve">
+    <value>Bütün Mesajaları Gör</value>
+  </data>
+  <data name="SeeAllNotification" xml:space="preserve">
+    <value>Bütün Bildirimleri Gör</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>Gönderen</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>Hizmet Açıklaması</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Hizmet Adı</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Hizmetler</value>
+  </data>
+  <data name="ServicesList" xml:space="preserve">
+    <value>Hizmet Listesi</value>
+  </data>
+  <data name="SiteLogo" xml:space="preserve">
+    <value>Site Logo</value>
+  </data>
+  <data name="SiteStution" xml:space="preserve">
+    <value>Site Durumu</value>
+  </data>
+  <data name="SiteURL" xml:space="preserve">
+    <value>Site URL</value>
+  </data>
+  <data name="SliderCategory" xml:space="preserve">
+    <value>Slider Kategorisi</value>
+  </data>
+  <data name="SliderCategoryList" xml:space="preserve">
+    <value>Slider Kategori Listesi</value>
+  </data>
+  <data name="SliderList" xml:space="preserve">
+    <value>Slider Listesi</value>
+  </data>
+  <data name="SliderName" xml:space="preserve">
+    <value>Slider Adı</value>
+  </data>
+  <data name="SliderPhoto" xml:space="preserve">
+    <value>Slider Fotoğrafı</value>
+  </data>
+  <data name="Sliders" xml:space="preserve">
+    <value>Sliders</value>
+  </data>
+  <data name="StaffEmail" xml:space="preserve">
+    <value>Personel Email</value>
+  </data>
+  <data name="StaffList" xml:space="preserve">
+    <value>Personel Listesi</value>
+  </data>
+  <data name="StaffManagement" xml:space="preserve">
+    <value>Personel Yönetimi</value>
+  </data>
+  <data name="StaffName" xml:space="preserve">
+    <value>Personel Adı</value>
+  </data>
+  <data name="StaffNumber" xml:space="preserve">
+    <value>Personel Numarası</value>
+  </data>
+  <data name="StaffPosition" xml:space="preserve">
+    <value>Personel Görevi</value>
+  </data>
+  <data name="StaffProfilePhoto" xml:space="preserve">
+    <value>Personel Fotoğrafı</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thedatayouarelookingforcouldntfind" xml:space="preserve">
+    <value>Aradığınız data bulunamadı</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="TurkishGalleryName" xml:space="preserve">
+    <value>Türkçe Galeri Adı</value>
+  </data>
+  <data name="TurkishNewsContent" xml:space="preserve">
+    <value>Türkçe Haber Açıklaması</value>
+  </data>
+  <data name="TurkishNewsTitle" xml:space="preserve">
+    <value>Türkçe Haber Başlığı</value>
+  </data>
+  <data name="TurkishPageContent" xml:space="preserve">
+    <value>Türkçe Sayfa İçeriği</value>
+  </data>
+  <data name="TurkishPageTitle" xml:space="preserve">
+    <value>Türkçe Sayfa Başlığı</value>
+  </data>
+  <data name="TurkishProductDescription" xml:space="preserve">
+    <value>Türkçe Ürün Açıklaması</value>
+  </data>
+  <data name="TurkishProductName" xml:space="preserve">
+    <value>Türkçe Ürün Adı</value>
+  </data>
+  <data name="TurkishReferenceDescription" xml:space="preserve">
+    <value>Türkçe Referans Açıklaması</value>
+  </data>
+  <data name="TurkishReferenceTitle" xml:space="preserve">
+    <value>Türkçe Referans Başlığı</value>
+  </data>
+  <data name="TurkishServiceDescription" xml:space="preserve">
+    <value>Türkçe Hizmet Açıklaması</value>
+  </data>
+  <data name="TurkishServicesTitle" xml:space="preserve">
+    <value>Türkçe Hizmet Başlığı</value>
+  </data>
+  <data name="TurkishSliderName" xml:space="preserve">
+    <value>Türlçe Slider Başlığı</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="UploadContentPhoto" xml:space="preserve">
+    <value>Büyük Resim Yükle</value>
+  </data>
+  <data name="UploadPartnerLogo" xml:space="preserve">
+    <value>Çözüm Otağı Logo Yükle</value>
+  </data>
+  <data name="UploadReferenceLogo" xml:space="preserve">
+    <value>Referans Logosu Yükle</value>
+  </data>
+  <data name="UploadSliderPhotos" xml:space="preserve">
+    <value>Slider Fotoğrafları Yüzkle</value>
+  </data>
+  <data name="UploadSmallPhoto" xml:space="preserve">
+    <value>Küçük Resim Yükle</value>
+  </data>
+  <data name="UploadStaffProfilePhoto" xml:space="preserve">
+    <value>Personel Fotoğrafı Ekle</value>
+  </data>
+  <data name="UserMenu" xml:space="preserve">
+    <value>Kullanıcı Menüsü</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="UserRole" xml:space="preserve">
+    <value>Kullanıcı Yetkisi</value>
+  </data>
+  <data name="ViewContact" xml:space="preserve">
+    <value>Mesajı Görüntüle</value>
+  </data>
+  <data name="VisitorMessage" xml:space="preserve">
+    <value>Ziyaretçi Mesajı</value>
+  </data>
+  <data name="WeekdaysWorkingHours" xml:space="preserve">
+    <value>Haftaiçi Mesai Saatleri</value>
+  </data>
+  <data name="WeekendWorkingHours" xml:space="preserve">
+    <value>Haftasonu Mesai Saatleri</value>
+  </data>
+  <data name="Wellcome" xml:space="preserve">
+    <value>Hoş Geldiniz</value>
+  </data>
+  <data name="WrongParameter" xml:space="preserve">
+    <value>Yanlış Parametre</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>var</value>
+  </data>
+  <data name="AspNetAdminPanelOnSale" xml:space="preserve">
+    <value>Satılık Asp.Net Admin Panel</value>
+  </data>
+  <data name="ClicktochoseLanguage" xml:space="preserve">
+    <value>Dili seçmek için tıklayın</value>
+  </data>
+</root>

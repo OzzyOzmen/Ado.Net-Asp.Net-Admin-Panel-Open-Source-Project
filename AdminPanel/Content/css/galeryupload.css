@@ -1,0 +1,31 @@
+﻿body {
+}
+.uploadPanel {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.uploadPImg {
+    border: 2px dashed red;
+    display: inline-block;
+    height: 300px;
+    width: 500px;
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+    .uploadPImg:hover {
+        border: 2px dashed blue;
+    }
+
+    .uploadPImg .uploadImg {
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+.upload {
+    display: none;
+    visibility: hidden;
+}
